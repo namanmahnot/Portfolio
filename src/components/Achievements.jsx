@@ -6,7 +6,7 @@ const achievements = [
     icon: <Trophy className="w-8 h-8 text-yellow-500" />,
     title: "TechXplosion Volunteer",
     description:
-      "Recognized for helping classmates with math assignments and teamwork.",
+      "For actively participating as volunteer of TechXplosion, A national level Tchno-Social Symposium",
     certificateLink: "/certificates/techxplosion.pdf",
   },
   {
