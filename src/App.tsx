@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Github, Linkedin, Mail, ExternalLink, Code2, Briefcase, GraduationCap, User, Home as HomeIcon, Award } from 'lucide-react';
+import Achievements from "./components/Achievements";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -289,6 +290,9 @@ function App() {
           </div>
         </div>
       </section>
+
+      <Achievements />
+
 
       <section id="contact" className="py-20 px-4 relative">
         <div className="absolute inset-0 grid-background opacity-20"></div>
